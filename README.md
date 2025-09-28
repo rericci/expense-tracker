@@ -2,7 +2,7 @@
 A Python-based tool to automatically consolidate and categorize personal expenses from multiple banks (only Amex in this version).
 It merges new transactions into a master Excel file, applies category mapping, and updates the mapping file dynamically.
 
-🚀 Features
+🚀 **Features**
 
 📂 Reads bank exports from the Input/ folder:
 
@@ -21,16 +21,16 @@ From historical transactions (if a description was already categorized)
 
 📊 Saves a unified master file (expenses_tracker_test.xlsx) with all transactions.
 
-📁 Project Structure
-.
-├── Input/                       # Drop your bank statements here
-│   ├── amex.xlsx
-├── mapping_categories_test.xlsx      # Mapping file: keyword → category
-├── expenses_tracker_test.xlsx        # Master file with all transactions
+├── Input/ # Drop your bank statements here
+│ └── amex_test.xlsx # Example Amex test file
+├── mapping_categories_test.xlsx # Mapping file: keyword → category
+├── expenses_tracker_test.xlsx # Master file with all transactions
 ├── Automate_expenses_tracking_test.py
 └── README.md
 
-📑 Output Format
+
+📑 **Output Format**
+
 
 The master Excel (expenses_tracker_test.xlsx) contains:
 
@@ -45,7 +45,7 @@ Dependencies:
 
 pip install pandas openpyxl
 
-▶️ Usage
+▶️ **Usage**
 
 Place your bank export files into the Input/ folder.
 
@@ -66,14 +66,3 @@ Save results in expenses_tracker.xlsx
 
 Update mapping_categories.xlsx
 
-ve
-
-📌 Example Transactions (Demo Data)
-09/21/2025   Coop         100,00
-09/20/2025   McDonalds     30,00
-09/19/2025   Netflix       15,99
-09/18/2025   Amazon        49,90
-
-
-
-⚡ Developed as a personal finance project to simplify expense tracking and showcase Python + Pandas automation skills.
