@@ -6,7 +6,7 @@ It merges new transactions into a master Excel file, applies category mapping, a
 
 📂 Reads bank exports from the Input/ folder:
 
-Amex (.xlsx)
+Amex_test (.xlsx)
 
 
 🧹 Cleans and normalizes data across banks (date format, amounts, descriptions).
